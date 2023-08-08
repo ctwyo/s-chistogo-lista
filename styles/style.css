@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  color: #fff;
+  background-color: #131313;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.content-section__subtitle {
+  font-family: EB Garamond;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+  padding-bottom: 32px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 32px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 0 0 0 16px;
+}
+
+.content-section__list-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.header {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-list {
+  list-style-type: none;
+}
+
+.header__menu-link {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #000;
+  transition: border-bottom 0.3s ease;
+}
+
+.header__menu-link:hover {
+  border-bottom: 1px solid #fee42a;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 78.453px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.cover {
+  padding: 7px 24px 32px 20px;
+  width: 100%;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.cover__title {
+  font-family: "EB Garamond", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro {
+  padding: 0 20px 37px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+  color: #ccc;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.cards__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card__author {
+  margin-bottom: 8px;
+}
+
+.card__theme_dark {
+  color: #f5f5f5;
+  background-color: #343434;
+}
+
+.card__theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  /* margin-top: 8px; */
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__title {
+  margin-bottom: 8px;
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.footer {
+  padding: 20px;
+  border-top: 1px solid #fee42a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.footer__links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
